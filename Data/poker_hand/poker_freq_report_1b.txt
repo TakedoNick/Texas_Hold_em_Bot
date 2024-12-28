@@ -1,0 +1,87 @@
+Kc Qc Jc Tc 9c 8c 7c 6c 5c 4c 3c 2c Ac Kd Qd Jd Td 9d 8d 7d 6d 5d 4d 3d 2d Ad
+Kh Qh Jh Th 9h 8h 7h 6h 5h 4h 3h 2h Ah Ks Qs Js Ts 9s 8s 7s 6s 5s 4s 3s 2s As
+
+Jc Jd 4c 6h Th Kd Ks 8h Qh 7c 5c Ac 7s Ts 5h 6s 2h 7h Jh 8c 4h 9d Qd Ad 2s 3h
+5d 2d Ah 3c 5s As 4d 9c Qc Qs Tc 2c 6c Js 3s Kc 7d 9h Kh 4s 3d Td 8d 9s 6d 8s
+
+Ac Ad Ah As Kd Ks Kc Kh Qh Qd Qc Qs Jc Jd Jh Js Th Ts Tc Td 9d 9c 9h 9s 8h 8c
+8d 8s 7c 7s 7h 7d 6h 6s 6c 6d 5c 5h 5d 5s 4c 4h 4d 4s 3h 3c 3s 3d 2h 2s 2d 2c
+
+Ac Kc Qc Jc Tc 9c 8c 7c 6c 5c 4c 3c 2c Ad Kd Qd Jd Td 9d 8d 7d 6d 5d 4d 3d 2d
+Ah Kh Qh Jh Th 9h 8h 7h 6h 5h 4h 3h 2h As Ks Qs Js Ts 9s 8s 7s 6s 5s 4s 3s 2s
+
+
+Ad Td Jc Jd 7c Kd Qd -> Ad Kd Qd Jd Td, Royal Flush (11000000)
+5h 6h Jc 4h 7h Kd 8h -> 8h 7h 6h 5h 4h, Straight Flush (10183068)
+5s 4s As 5d Jc 2s 3s -> 5s 4s 3s 2s As, Straight Flush (Wheel) (9000000)
+7d 7h Jc Jd 7c 3s 7s -> 7c 7d 7h 7s Jc, Four of a Kind (8154709)
+8h 2c 8c Ad 2d 2s 2h -> 2c 2d 2h 2s Ad, Four of a Kind (8000012)
+3d Ah Ac 2d Kc As Ks -> Ac Ah As Kc Ks, Full House (7371278)
+Ks Kd Ad Kc As 5s Ah -> Ad Ah As Kc Kd, Full House (7371278)
+Js Jc 2s 2c 7d Jd 9h -> Jc Jd Js 2c 2s, Full House (7278343)
+9d 9h Jc 2d 9c 2s Ks -> 9c 9d 9h 2d 2s, Full House (7216489)
+2h 7h 3h Kh Qh 7s Tc -> Kh Qh 7h 3h 2h, Flush (6336999)
+4d 5h 6c 3d 7c 8s Kc -> 8s 7c 6c 5h 4d, Straight (5183068)
+5h 4h Ac Ks Tc 2s 3h -> 5h 4h 3h 2s Ac, Straight (Wheel) (4000000)
+Kh 5h Ac Kd Kc 6s Th -> Kc Kd Kh Ac Th, Three of a Kind (3340361)
+4d 7h Tc Jd Qc 4s Qs -> Qc Qs 4d 4s Jd, Two Pair (2307953)
+4d 2h Tc 9h 9c 4s 2c -> 9c 9h 4d 4s Tc, Two Pair (2215678)
+5h Ah As 8h 3s 2s Td -> Ah As Td 8h 5h, Pair (1370529)
+5h 8h 8s 2h Qs Ks Td -> 8h 8s Ks Qs Td, Pair (1186545)
+5h 6s 8s 2h Ac 3s 7c -> Ac 8s 7c 6s 5h, High Card (356814)
+As Ks 2s 3h 7c 4d 6c -> As Ks 7c 6c 4d, High Card (367798)
+5h Js Qs 4d Kc 8d Tc -> Kc Qs Js Tc 8d, High Card (337772)
+
+
+1000000000 hands,
+2h 16m 53s
+
+Results for 8-max NLHE:
+
+Rank Frequency:
+
+High Card                1392956601 (17.4120%)
+Pair                     3505816659 (43.8227%)
+Two Pair                 1931387328 (24.1423%)
+Three of a Kind          386376270 (4.8297%)
+Straight (Wheel)         36093503 (0.4512%)
+Straight                 333428590 (4.1679%)
+Flush                    242046480 (3.0256%)
+Full House               155966908 (1.9496%)
+Four of a Kind           13440652 (0.1680%)
+Straight Flush (Wheel)   246777 (0.0031%)
+Straight Flush           1981595 (0.0248%)
+Royal Flush              258637 (0.0032%)
+
+Most Common Jackpot Hands:
+
+KK   4645 (24.0300%)
+AA   1071 (5.5406%)
+AQo  628 (3.2488%)
+AJo  528 (2.7315%)
+AKo  511 (2.6436%)
+55   493 (2.5504%)
+33   486 (2.5142%)
+66   481 (2.4884%)
+44   480 (2.4832%)
+88   452 (2.3383%)
+77   449 (2.3228%)
+99   448 (2.3176%)
+ATo  410 (2.1211%)
+22   391 (2.0228%)
+TT   369 (1.9089%)
+JJ   350 (1.8107%)
+QQ   341 (1.7641%)
+A9o  315 (1.6296%)
+AKs  266 (1.3761%)
+A8o  250 (1.2933%)
+
+Three Aces on Board: 1734079 (0.1734%)
+Four Aces on Board: 18226 (0.0018%)
+Chance of Jackpot with Three Aces on Board: 3773 (0.2176%)
+Quads Beat: 4525 (46.8184%)
+Straight Flush Beat: 414 (4.2835%)
+Total Jackpot Frequency: 9665 (0.0010%)
+
+Any Faces Full Beat: 529379 (0.0529%)
+Chance of Faces Full Beat with Three Aces on Board: 90583 (5.2237%)
